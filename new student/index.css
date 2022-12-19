@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    /* background-color: brown; */
+    border-bottom: 2px solid black;
+}
+
+.logo{
+    /* background-color: aquamarine; */
+}
+.search{
+    /* background-color: gold; */
+}
+
+.inp{
+    width: 400px;
+    height: 30px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+}
+.setting{
+    /* background-color: aqua; */
+}
+.img{
+    width: 50px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
