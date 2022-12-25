@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(10, 16, 49, 0.5),
+      rgba(19, 17, 17, 0.9)
+    ),
+    url(./img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.search-bar {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: antiquewhite;
+}
+.container .images .image-box {
+  height: 330px;
+  width: 230px;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.images .image-box {
+  margin: 10px;
+}
+.images .image-box img {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.1s linear;
+}
+.image-box:hover img {
+  transform: scale(1.15);
+}
+.container .images .image-box h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: aqua;
+  font-weight: 400;
+  text-transform: capitalize;
+}
